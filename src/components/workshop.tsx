@@ -8,7 +8,7 @@ import Snowfall from "./snowfall";
 interface Activity {
     activity: string
     enabled: boolean
-  }
+}
 
 
 export function Workshop() {
