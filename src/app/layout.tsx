@@ -36,9 +36,7 @@ export default function RootLayout({
         <Header />
         <main  className="min-h-screen bg-gradient-to-b from-green-800 to-red-800">
         {children}
-
         </main>
-
       </body>
         </DevCycleClientsideProvider>
     </html>

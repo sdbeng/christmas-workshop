@@ -10,7 +10,7 @@ export default async function Christmas() {
 
     return (
       <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gradient-to-b from-green-800 to-red-800">
-      <h1 className="text-4xl font-bold text-white mb-8">Santa's Workshop</h1>
+      <h1 className="text-4xl font-bold text-white mb-8">Santa&apos;s Workshop</h1>
       <Workshop />
     </main>
     )

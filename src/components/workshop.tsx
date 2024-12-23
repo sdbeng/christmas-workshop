@@ -8,7 +8,7 @@ import Snowfall from "./snowfall";
 interface Activity {
     activity: string
     enabled: boolean
-  }
+}
 
 
 export function Workshop() {
@@ -30,7 +30,7 @@ export function Workshop() {
 
     if (response.ok) {
       setActivities(prev => 
-        prev.map(a => a.activity === activity ? { ...a, enabled } : a)//toggle the activity that was clicked, if it was clicked
+        prev.map(a => a.activity === activity ? { ...a, enabled } : a)
       )
     }
   }
@@ -63,7 +63,7 @@ export function Workshop() {
       </Card>
       {isChristmasEve && (
         <div className="mt-8 text-center text-white text-2xl animate-pulse">
-          🎄 It's Christmas Eve! All preparations are locked. 🎅
+          🎄 It&apos;s Christmas Eve! All preparations are locked. 🎅
         </div>
       )}
     </div>
