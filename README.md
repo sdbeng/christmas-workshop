@@ -15,6 +15,8 @@ This setup creates a Christmas-themed "Santa's Workshop" application that uses f
 First, set up db schema and create env vars:
 Add .gitignore and MIT Lic.
 
+### environment vars setup
+
 ```bash
 # .env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
