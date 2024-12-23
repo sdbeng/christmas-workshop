@@ -3,7 +3,6 @@ import { SignedIn, SignedOut, SignInButton, SignOutButton, UserButton } from '@c
 import { auth, currentUser } from '@clerk/nextjs/server'
 import { Bell } from 'lucide-react'
 import { Button } from './ui/button'
-import { redirect } from 'next/navigation'
 
 export async function Header() {
     const {userId} = await auth()
@@ -15,7 +14,7 @@ export async function Header() {
     <header className="bg-green-900 text-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-red-500 hover:text-red-400 transition-colors">
-          Santa's Workshop
+          Santa&apos;s Workshop
         </Link>
         <nav className="flex items-center space-x-4">
           <Link href="/" className="text-white hover:text-red-300 transition-colors">

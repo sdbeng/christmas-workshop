@@ -30,11 +30,11 @@ export default async function Home() {
         </SignedIn>
         <div className="bg-green-200 p-4 rounded-lg shadow-md text-green-900">
           <p className="text-lg">
-            Go ahead signup and visit <strong>"Santa's Workshop"</strong> where elves are busy creating holiday magic! 🎁✨
+            Go ahead signup and visit <strong>&quot;Santa&apos;s Workshop&quot;</strong> where elves are busy creating holiday magic! 🎁✨
           </p>
         </div>
         <Link href="/christmas" className="mt-4 px-6 py-3 bg-green-500 text-white rounded-md shadow-md hover:bg-green-600 transition duration-300" prefetch={false}>          
-            Santa Workshop          
+            Santa&apos;s Workshop          
         </Link>      
      
     </div>
