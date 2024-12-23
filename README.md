@@ -29,9 +29,13 @@ Set up prisma schema for storing model:
 ```
 fields: activity and enabled
 
-clone repo and run npm npm run dev
+clone repo and run npm i, then npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 ```
+
+## Bugfixes and future features
+
+ALready working on v.02, fixing some bugs and potentially adding a conversational feature.
 
 ## Coffee Donations & Contributions
 
