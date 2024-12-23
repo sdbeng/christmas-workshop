@@ -1,11 +1,10 @@
 import Image from "next/image";
-import {  SignedIn, SignedOut } from '@clerk/nextjs'
-import Guest from "@/components/guest";
+import {  SignedIn } from '@clerk/nextjs'
 import Link from "next/link";
-import { auth, currentUser } from "@clerk/nextjs/server";
+import { currentUser } from "@clerk/nextjs/server";
 
 export default async function Home() {
-  const { userId } = await auth();
+  
   const user = await currentUser();
   
 
