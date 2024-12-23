@@ -30,7 +30,7 @@ export function Workshop() {
 
     if (response.ok) {
       setActivities(prev => 
-        prev.map(a => a.activity === activity ? { ...a, enabled } : a)//toggle the activity that was clicked, if it was clicked
+        prev.map(a => a.activity === activity ? { ...a, enabled } : a)
       )
     }
   }
