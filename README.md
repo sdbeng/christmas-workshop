@@ -12,7 +12,8 @@ This setup creates a Christmas-themed "Santa's Workshop" application that uses f
 4. The UI is styled with Tailwind CSS and shadcn/ui components, with a Christmas color scheme (green and red gradient background).
 5. A festive snowfall effect is added to enhance the Christmas theme.
 
-First, set up db schema and env vars:
+First, set up db schema and create env vars:
+Add .gitignore and MIT Lic.
 
 ```bash
 # .env
