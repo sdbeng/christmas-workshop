@@ -63,7 +63,7 @@ export function Workshop() {
       </Card>
       {isChristmasEve && (
         <div className="mt-8 text-center text-white text-2xl animate-pulse">
-          🎄 It's Christmas Eve! All preparations are locked. 🎅
+          🎄 It&apos;s Christmas Eve! All preparations are locked. 🎅
         </div>
       )}
     </div>
